@@ -1,0 +1,9 @@
+<form>
+  <label for="description">Description:</label>
+  <input type="text" id="description" [(ngModel)]="todo.description" name="description" required>
+  <br>
+  <label for="summary">Summary:</label>
+  <input type="text" id="summary" [(ngModel)]="todo.summary" name="summary" required>
+  <br>
+  <button (click)="addTodo()">Add Todo</button>
+</form>

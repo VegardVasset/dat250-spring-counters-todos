@@ -11,6 +11,8 @@ import java.util.Optional;
  * Rest-Endpoint for todos.
  */
 
+@CrossOrigin(origins = "http://localhost:4200")
+
 @RestController
 public class TodoController {
 
